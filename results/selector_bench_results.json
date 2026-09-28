@@ -1,0 +1,64 @@
+{
+ "python": "3.14.7",
+ "lxml": "6.1.2",
+ "libxml2": "2.11.9",
+ "policy": "up to 200 runs or 30.0s per engine, min 10",
+ "dataset_mb": 5.0,
+ "cards": 10835,
+ "results": {
+  "lxml XPath, nested // (article's query)": {
+   "median_ms": 59957.855,
+   "p95_ms": 66602.869,
+   "min_ms": 57640.63,
+   "stddev": 2772.745,
+   "runs": 10,
+   "items_per_query": 10835,
+   "items_per_sec": 180.7
+  },
+  "lxml XPath, direct path": {
+   "median_ms": 105.298,
+   "p95_ms": 124.821,
+   "min_ms": 102.482,
+   "stddev": 43.651,
+   "runs": 200,
+   "items_per_query": 10835,
+   "items_per_sec": 102898.6
+  },
+  "lxml CSS (cssselect)": {
+   "median_ms": 21551.047,
+   "p95_ms": 22288.489,
+   "min_ms": 20938.852,
+   "stddev": 475.219,
+   "runs": 10,
+   "items_per_query": 10835,
+   "items_per_sec": 502.8
+  },
+  "lxml CSS, direct path": {
+   "median_ms": 201.073,
+   "p95_ms": 214.013,
+   "min_ms": 198.433,
+   "stddev": 31.689,
+   "runs": 146,
+   "items_per_query": 10835,
+   "items_per_sec": 53885.9
+  },
+  "BS4 CSS (soupsieve)": {
+   "median_ms": 867.888,
+   "p95_ms": 885.952,
+   "min_ms": 858.498,
+   "stddev": 14.342,
+   "runs": 35,
+   "items_per_query": 10835,
+   "items_per_sec": 12484.3
+  },
+  "BS4 CSS, direct path": {
+   "median_ms": 889.493,
+   "p95_ms": 947.878,
+   "min_ms": 882.882,
+   "stddev": 22.352,
+   "runs": 34,
+   "items_per_query": 10835,
+   "items_per_sec": 12181.1
+  }
+ }
+}
