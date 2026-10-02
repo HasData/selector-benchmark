@@ -2,7 +2,7 @@
 
 ![HasData, the company that ran the benchmark](banner.png)
 
-The same logical query through six selector engines on the same 5 MB page, timed. The spread runs from 105 ms to just under 60 seconds per query depending on how the selector is written, which is the point [our XPath vs CSS comparison](https://hasdata.com/blog/xpath-vs-css-selectors) makes at length.
+The same logical query through six selector engines on the same 5 MB page, timed. The spread runs from 105 ms to just under 60 seconds per query depending on how the selector is written, which is the point [our XPath vs CSS comparison](https://hasdata.com/blog/xpath-vs-css-selectors?utm_source=github&utm_medium=syndication&utm_campaign=xpath-vs-css-selectors&utm_content=selector-benchmark-readme) makes at length.
 
 ## Table of Contents
 
@@ -46,9 +46,9 @@ The run doesn't touch the network, the dataset is generated in memory, and the r
 
 ## Disclaimer
 
-The benchmark parses a synthetic page it generates itself. How selectors get used against real sites depends on jurisdiction and terms, and nothing in this repository is legal advice. [Is Web Scraping Legal?](https://hasdata.com/blog/is-web-scraping-legal) covers how we think about the question.
+The benchmark parses a synthetic page it generates itself. How selectors get used against real sites depends on jurisdiction and terms, and nothing in this repository is legal advice. [Is Web Scraping Legal?](https://hasdata.com/blog/is-web-scraping-legal?utm_source=github&utm_medium=syndication&utm_campaign=xpath-vs-css-selectors&utm_content=selector-benchmark-readme) covers how we think about the question.
 
 ## More Resources
 
-- [XPath vs CSS Selectors](https://hasdata.com/blog/xpath-vs-css-selectors), the comparison these numbers back
-- [CSS Selectors Cheat Sheet](https://hasdata.com/blog/css-selectors-cheat-sheet), the reference the fast shapes come from
+- [XPath vs CSS Selectors](https://hasdata.com/blog/xpath-vs-css-selectors?utm_source=github&utm_medium=syndication&utm_campaign=xpath-vs-css-selectors&utm_content=selector-benchmark-readme), the comparison these numbers back
+- [CSS Selectors Cheat Sheet](https://hasdata.com/blog/css-selectors-cheat-sheet?utm_source=github&utm_medium=syndication&utm_campaign=xpath-vs-css-selectors&utm_content=selector-benchmark-readme), the reference the fast shapes come from
